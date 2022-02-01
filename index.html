@@ -5,13 +5,416 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Litho</title>
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
   <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
   <link rel="stylesheet" href="css/col.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+  <section id="hero">
+    <h2 class="none">litho</h2>
+
+    <div class="hideContent" id="hideVersion">
+      <div class="hideContent__inner">
+        <div class="hideContent__second__inner">
+          <nav>
+            <ul class="modal-list">
+              <li class="modal-list__item"><a class="modal-list__link" href="#">home</a></li>
+              <li class="modal-list__item"><a class="modal-list__link" href="#">about</a></li>
+              <li class="modal-list__item"><a class="modal-list__link" href="#">services</a></li>
+              <li class="modal-list__item"><a class="modal-list__link" href="#">portfolio</a></li>
+              <li class="modal-list__item"><a class="modal-list__link" href="#">blog</a></li>
+
+            </ul>
+          </nav>
+          <ul class="social-media">
+            <li class="social-media__item ">
+              <a class="social-media__link row middle" href="#" target="_blank">
+                <i class='bx social-media__icon bxl-facebook'></i>Facebook
+              </a>
+            </li>
+
+            <li class="social-media__item ">
+              <a class="social-media__link row middle" href="#" target="_blank">
+                <i class='bx social-media__icon bxl-twitter'></i>Twitter
+              </a>
+            </li>
+
+            <li class="social-media__item ">
+              <a class="social-media__link row middle" href="#" target="_blank">
+                <i class='bx social-media__icon bxl-instagram'></i>Instagram
+              </a>
+            </li>
+
+            <li class="social-media__item ">
+              <a class="social-media__link row middle" href="#" target="_blank">
+                <i class='bx social-media__icon bxl-dribbble'></i>Dribbble
+              </a>
+            </li>
+          </ul>
+          <button class="close-icon" id="closeBtn"><i class='bx  bx-x'></i></button>
+        </div>
+      </div>
+
+    </div>
+    <div class="container">
+      <header class="site-header">
+        <div class="site-header__inner row middle between">
+          <div>
+            <a class="site-header__img" href="#"><img src="images/main-logo.png" alt="main-logo" width="111"
+                height="36"></a>
+          </div>
+          <div class="row site-header__link__wrapper">
+            <a class="site-header__link" href="tel:998999393">CALL US +44 123 456 7890</a>
+            <div class="row site-header__menu__wrapper" id="btnOpen">
+              <span class="site-header__menu site-header__menu--position"></span>
+              <span class="site-header__menu site-header__menu--second"></span>
+              <span class="site-header__menu site-header__menu--position"></span>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="hero-content">
+        <div class="hero-content__part">
+          <div class="hero-content__inner row">
+            <div class="hero-content__title__wrapper">
+              <span class="hero-content__title">01</span>
+            </div>
+            <div>
+              <h1 class="hero-content__main__title">De wendell <br> burnette</h1>
+              <a class="hero-content__link" href="#">Exploer project</a>
+            </div>
+          </div>
+
+          <div class="hero-content__btn__wrapper">
+            <button class="hero-content__btn hero-content__btn--active"><i
+                class='bx hero-content__btn__icon bx-right-arrow-alt'></i></button>
+            <button class="hero-content__btn"><i class='bx hero-content__btn__icon bx-left-arrow-alt'></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-icons">
+      <button class="hero-icons__btn"><i class='bx bx-layer'></i>37+ demos</button>
+      <a class="hero-icons__btn hero-icons__btn--link" href="#"><i class='bx bxs-shopping-bag-alt'></i>buy now</a>
+    </div>
+
+  </section>
+
+  <main>
+
+    <section id="experience" class="experience">
+      <div class="row middle center">
+        <div>
+          <div class="experience__inner row">
+            <span class="experience__number">28</span>
+            <p class="experience__text">Years <br> experience <br> working</p>
+          </div>
+        </div>
+        <div class="experience__stats">
+          <p class="experience__year">SINCE 1992</p>
+          <p class="experience__sub__title">An architectural <br> company based in <br> United kingdom</p>
+        </div>
+        <div class="experience__desc__wrapper">
+          <p class="experience__desc">Lorem ipsum is simply dummy text of the printing and <br> typesetting industry.
+            Lorem ipsum has been standard <br> dummy text ever since ipsum been the industry lorem <br> ipsum has been
+            lorem ipsums dolor.
+          </p>
+          <a class="experience__link" href="#">About company</a>
+        </div>
+      </div>
+      <a class="fixed-up" href="#"><i class='bx bx-up-arrow-alt'></i></a>
+    </section>
+
+    <section id="design" class="design">
+      <div class="container">
+        <ul class="design__list row center">
+
+          <li class="design__item">
+            <div class="design__item__img__wrapper">
+              <img class="design__item__img" src="images/card-img.webp" alt="card-img" width="304" height="424">
+            </div>
+            <h3 class="design__title">Architecture <br> design</h3>
+            <button class="design__btn"><i class='bx bx-right-arrow-alt'></i></button>
+            <div class="design__desc__wrapper">
+              <p class="design__text">Lorem ipsum is simply <br> dummy text of the printing <br> and typesetting.</p>
+              <a class="design__link" href="#">See portfolio</a>
+            </div>
+          </li>
+
+          <li class="design__item">
+            <div class="design__item__img__wrapper">
+              <img class="design__item__img" src="images/card-img-2.webp" alt="card-img-2" width="304" height="424">
+            </div>
+            <h3 class="design__title">Structure <br> design</h3>
+            <button class="design__btn"><i class='bx bx-right-arrow-alt'></i></button>
+            <div class="design__desc__wrapper">
+              <p class="design__text">Lorem ipsum is simply <br> dummy text of the printing <br> and typesetting.</p>
+              <a class="design__link" href="#">See portfolio</a>
+            </div>
+          </li>
+
+          <li class="design__item">
+            <div class="design__item__img__wrapper">
+              <img class="design__item__img" src="images/card-img-3.webp" alt="card-img-3" width="304" height="424">
+            </div>
+            <h3 class="design__title">Furnitures <br> design</h3>
+            <button class="design__btn"><i class='bx bx-right-arrow-alt'></i></button>
+            <div class="design__desc__wrapper">
+              <p class="design__text">Lorem ipsum is simply <br> dummy text of the printing <br> and typesetting.</p>
+              <a class="design__link" href="#">See portfolio</a>
+            </div>
+          </li>
+
+          <li class="design__item">
+            <div class="design__item__img__wrapper">
+              <img class="design__item__img" src="images/card-img-4.webp" alt="card-img-4" width="304" height="424">
+            </div>
+            <h3 class="design__title">Landscapes <br> design</h3>
+            <button class="design__btn"><i class='bx bx-right-arrow-alt'></i></button>
+            <div class="design__desc__wrapper">
+              <p class="design__text">Lorem ipsum is simply <br> dummy text of the printing <br> and typesetting.</p>
+              <a class="design__link" href="#">See portfolio</a>
+            </div>
+          </li>
+
+        </ul>
+      </div>
+    </section>
+
+    <section id="experts" class="experts">
+      <div class="row center">
+        <div>
+          <h4 class="experts__title">We are passionate knowing that <br> people work, play and inhabit the <br> spaces and places.</h4>
+        </div>
+        <div class="experts__wrapper">
+          <h5 class="experts__text">OWNER MANAGED</h5>
+          <p class="experts__sub__text">Lorem ipsum is simly dummy <br> text of the printing and lorem <br> ipsum has been.
+          </p>
+        </div>
+        <div class="experts__wrapper">
+          <h5 class="experts__text">EXPECT CREATIVITY</h5>
+          <p class="experts__sub__text">Lorem ipsum is simly dummy <br> text of the printing and lorem <br> ipsum has been.
+          </p>
+        </div>
+      
+      </div>
+
+    </section>
+
+    <section id="leader" class="leader">
+      <div class="container">
+        <div class="leader__inner">
+          <div class="leader__bg">
+            <div class="leader__link__wrapper"></div>
+            <a class="leader__link" href="https://youtu.be/67PstLDYXGI"><i class='bx bxs-right-arrow' ></i></a>
+            <div class="leader__stats">
+              <h4 class="leader__text">We are the leader in <br> the <span class="leader__bold__text">architectural</span> </h4>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="adverts" class="adverts">
+      <ul class="adverts__list row center">
+        <li class="adverts__item">
+          <a class="adverts__link" href="#"><img class="adverts__img" src="images/forecastpng.png" alt="forecastpng" width="232" height="110"></a>
+        </li>
+
+        <li class="adverts__item">
+          <a class="adverts__link" href="#"><img class="adverts__img" src="images/growify.png" alt="growify" width="232" height="110"></a>
+        </li>
+
+        <li class="adverts__item">
+          <a class="adverts__link" href="#"><img class="adverts__img" src="images/techbox.png" alt="techbox" width="232" height="110"></a>
+        </li>
+
+        <li class="adverts__item">
+          <a class="adverts__link" href="#"><img class="adverts__img" src="images/smarthome.png" alt="smarthome" width="232" height="110"></a>
+        </li>
+      </ul>
+    </section>
+
+    <section id="work" class="work">
+      <div class="container">
+        <div class="row middle">
+          <span class="work__line"></span>
+          <h4 class="work__title">SELECTED WORK</h4>
+          <span class="work__line"></span>
+        </div>
+        <ul class="work__list row center">
+
+          <li class="work__item">
+            <div class="work__inner">
+              <div class="work__part">
+                <button class="work__btn"><i class='bx bx-right-arrow-alt' ></i></button>
+              </div>
+            </div>
+            <div class="work__text">
+              <a class="work__link" href="#">Cultural center</a>
+              <p class="work__sub__text">Landscape</p>
+            </div>
+          </li>
+
+          <li class="work__item">
+            <div class="work__inner work__inner--second">
+              <div class="work__part">
+                <button class="work__btn"><i class='bx bx-right-arrow-alt' ></i></button>
+              </div>
+            </div>
+            <div class="work__text">
+              <a class="work__link" href="#">Aliquam gravida</a>
+              <p class="work__sub__text">Architecture</p>
+            </div>
+          </li>
+
+          <li class="work__item">
+            <div class="work__inner work__inner--third">
+              <div class="work__part">
+                <button class="work__btn"><i class='bx bx-right-arrow-alt' ></i></button>
+              </div>
+            </div>
+            <div class="work__text">
+              <a class="work__link" href="#">Leana Gagnotto</a>
+              <p class="work__sub__text">Architecture</p>
+            </div>
+          </li>
+
+          <li class="work__item">
+            <div class="work__inner work__inner--fourth">
+              <div class="work__part">
+                <button class="work__btn"><i class='bx bx-right-arrow-alt' ></i></button>
+              </div>
+            </div>
+            <div class="work__text">
+              <a class="work__link" href="#">Fringila auctor</a>
+              <p class="work__sub__text">Interior</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+    </section>
+
+    <section id="map" class="map">
+      <div class="container">
+        <div class="map__inner">
+          <div class="row">
+            <div>
+              <h5 class="map__title">world</h5>
+            </div>
+            <div>
+              <img class="map__img" src="images/map.png" alt="map" width="457" height="257">
+            </div>
+            <div>
+              <h5 class="map__sub__title__last">We have offices all <br> around the world</h5>
+              <p class="map__text">Lorem is simply dummy text of the <br> and typesetting industry lorem ipsum <br> industry’s standard text.</p>
+              <a class="map__link" href="#">Get in touch</a>
+            </div>
+          </div>
+        </div>
+        <div class="row middle map-part">
+          <span class="map__line"></span>
+          <h4 class="map__sub__title">LATEST BLOGS</h4>
+          <span class="map__line"></span>
+        </div>
+      </div>
+    </section>
+
+    <section id="blog" class="blog">
+      <div class="container">
+        <ul class="blog__list row center">
+          <li class="blog__item">
+            <div>
+              <img class="blog__img" src="images/blog-img.webp" alt="blog-img" width="304" height="304">
+            </div>
+            <div class="blog__wrapper">
+              <a class="blog__link" href="#">Creative</a>
+              <p class="blog__date">13 FEBRUARY 2021</p>
+              <a class="blog__desc" href="#">Bad design is <br> smoke, while good <br> design is a mirror</a>
+            </div>
+          </li>
+
+          <li class="blog__item">
+            <div>
+              <img class="blog__img" src="images/blog-img-2webp.webp" alt="blog-img-2" width="304" height="304">
+            </div>
+            <div class="blog__wrapper">
+              <a class="blog__link" href="#">Creative</a>
+              <p class="blog__date">13 FEBRUARY 2021</p>
+              <a class="blog__desc" href="#">Bad design is <br> smoke, while good <br> design is a mirror</a>
+            </div>
+          </li>
+
+          <li class="blog__item">
+            <div>
+              <img class="blog__img" src="images/blog-img-3.webp" alt="blog-img-3" width="304" height="304">
+            </div>
+            <div class="blog__wrapper">
+              <a class="blog__link" href="#">Creative</a>
+              <p class="blog__date">13 FEBRUARY 2021</p>
+              <a class="blog__desc" href="#">Bad design is <br> smoke, while good <br> design is a mirror</a>
+            </div>
+          </li>
+
+          <li class="blog__item">
+            <div>
+              <img class="blog__img" src="images/blog-img-4.webp" alt="blog-img-4" width="304" height="304">
+            </div>
+            <div class="blog__wrapper">
+              <a class="blog__link" href="#">Creative</a>
+              <p class="blog__date">13 FEBRUARY 2021</p>
+              <a class="blog__desc" href="#">Bad design is <br> smoke, while good <br> design is a mirror</a>
+            </div>
+          </li>
+        </ul>
+        <div class="blog__intro__wrap">
+          <h5 class="blog__intro">ARE YOU READY TO WORK WITH US? <span class="blog__bold__text">START A PROJECT</span> </h5>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+
+      <div class="footer__logo row middle between">
+        <div class="footer__img">
+          <a href="#">
+            <img src="https://litho.themezaa.com/wp-content/uploads/2021/01/logo-parrot-green.png" alt="">
+          </a>
+        </div>
+        <div class="footer__info">
+          <p class="footer__text">+1 234 567 8910•27 EDEN WALK EDEN CENTRE, PARIS, FRANCE • <a class="footer__com" href="#">INFO@YOURDOMAIN.COM</a></p>
+        </div>
+
+        <div class="footer__icons">
+
+          <a class="footer__link" href="#">
+            <i class='bx bxl-facebook footer__icon'></i>
+          </a>
+
+          <a class="footer__link" href="#">
+            <i class='bx bxl-dribbble footer__icon'></i>
+          </a>
+
+          <a class="footer__link" href="#">
+            <i class='bx bxl-instagram footer__icon'></i>
+          </a>
+
+          <a class="footer__link" href="#">
+            <i class='bx bxl-twitter footer__icon'></i>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
 
   <script src="js/main.js"></script>
 </body>
